@@ -13,3 +13,5 @@ In this typescript project I have practised doing things like string manipulatio
 
 
 - I ran into a whole lot of errors on the way and I don't fully grasp the typescript concept. Some fixes are not great but to save time and get on with other projects I'll leave it as is. I'll get back to this when I have time to redo properly. 
+
+This is returned in Module 3 as the 'TypeScript Introduction - Data types' guide. 

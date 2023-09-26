@@ -1,0 +1,85 @@
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: rgba(164, 222, 230, 0.212);
+  }
+
+#button {
+    text-align: center;
+    background-color: rgba(51, 123, 170, 0.774);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: .8em ;
+    max-width: 200px;
+    margin: 30px;
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgba(164, 222, 230, 0.568);
+}
+
+#dateTime {
+    font-style: italic;
+}
+span {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+  #container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 1300px;
+    height: 100%;
+    padding: 20px;
+    margin: 30px;
+  }
+
+
+h2 {
+    margin-top: 0;
+    color: rgb(12, 23, 54);
+    align-self: center;
+}
+p {
+    line-height: 2;
+}
+.functionBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1000px;
+}
+
+.arrayBox {
+    border: solid 2px rgba(52, 52, 70, 0.788);
+    padding: 20px;
+    background-color: rgba(164, 222, 230, 0.212);
+}
+
+#arrayList {
+    font-size: smaller;
+}
+
+
+#randomList {
+    font-size: smaller;
+}
+
+.clickBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: solid 2px rgba(52, 52, 70, 0.788);
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(164, 222, 230, 0.212);
+}

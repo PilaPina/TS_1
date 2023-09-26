@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Learning typescript</title>
+</head>
+<body>
+    <div id="container">
+        <div><h1>Learning Typescript / JavaScript</h1></div>
+        <div class="date">
+            <h3>This is the current date:</h3>
+            <h3 id="dateTime"></h3> 
+        </div>
+        <div class="functionBox">  
+            <div class="clickBox">  
+                <p><strong>COUNTING THE CLICKS</strong></p>    
+                <button id="button">CLICK ME</button>
+                <h2 id="total">0</h2>    
+            </div>   
+            <div class="arrayBox">
+                <strong>Array: Words</strong>
+                <ul  id="arrayList">
+                </ul>
+            </div>
+            <div class="arrayBox">
+                <strong> Array: Random numbers</strong>
+                <ul id="randomList"></ul>
+            </div>
+        </div>    
+        <div>
+            <!-- These are notes and reminders regarding Javascript -->
+            <p><b>JAVASCRIPT NOTES:</b> <br> <b>Double or single quotes?</b>
+                You have a couple of options for your specified output. <br> You can use the escape character \ for the quotes that need to be printed, and are the same as the outer quotes: <br>
+                <span>console.log("It's a \"moot\" point.");</span> <br>
+                //Or <br>
+                <span>console.log('It\'s a "moot" point.'); </span> <br>
+                Or you can use the back tick to enclose both single and double quotes: <br>
+                <span>console.log(`It's a "moot" point.`);</span></p>
+                <p><b>Some concepts:</b> <br>Data is printed, or logged, to the console, a panel that displays messages, with console.log(). <br>
+                We can write single-line comments with // and multi-line comments between /* and */. <br>
+                There are 7 fundamental data types in JavaScript: strings, numbers, booleans, null, undefined, symbol, and object. <br>
+                Numbers are any number without quotes: 23.8879 <br>
+                Strings are characters wrapped in single or double quotes: 'Sample String' <br>
+                The built-in arithmetic operators include +, -, *, /, and %.   <br>
+                Objects, including instances of data types, can have properties, stored information. The properties are denoted with a . after the name of the object, for example: 'Hello'.length.
+                Objects, including instances of data types, can have methods which perform actions. Methods are called by appending the object or instance with a period, the method name, and parentheses. For example: 'hello'.toUpperCase(). <br>
+                We can access properties and methods by using the ., dot operator.  <br>
+                Built-in objects, including Math, are collections of methods and properties that JavaScript provides.</p>
+        </div>
+           
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
